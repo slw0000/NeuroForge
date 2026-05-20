@@ -48,13 +48,14 @@ NeuroForge/
 │   ├── bindings.cpp
 │   ├── file_import.cpp
 │   └── visualization.cpp
-
+├── static/ - папка со скриншотами примера работы
 ├── tests/
 │   ├── matrix_tests.cpp
 │   ├── file_import_tests.cpp
 │   └── visualization_tests.cpp
 ├── scripts/
-│   └── plot.py                — скрипт визуализации
+│   ├── nnlab.py              — скрипт с работой нейросети
+│   └── plot.py               — скрипт визуализации
 ├── data/                      — директория для CSV файлов
 ├── CMakeLists.txt
 └── requirements.txt
